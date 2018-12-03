@@ -1,0 +1,42 @@
+.fa{
+    color: #333333;
+
+}
+
+.task-item{
+    list-style-type: none;
+}
+
+.task-edit-input{
+    color: #333333;
+    width: 400px;
+}
+
+.task-text{
+    display: inline-block;
+    color: #333;
+    width: 460px;
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+}
+
+.task-text-selected{
+    color: red;
+    text-decoration: line-through;
+}
+
+.btn-icon{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    float: right;
+}
+
+.btn-save{
+    float: right;
+}
+
+.no-clickable{
+    pointer-events: none;
+}

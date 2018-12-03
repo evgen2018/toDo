@@ -1,0 +1,18 @@
+.form-group{
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.form-control{
+    display: inline-block;
+    margin: 0 20px;
+    width: calc(100% - 150px);
+}
+
+.btn{
+    margin: 0;
+}
+
+.btn-add-task{
+    margin-top: -6px;
+}
